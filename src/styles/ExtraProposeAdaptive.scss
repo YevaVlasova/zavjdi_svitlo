@@ -1,0 +1,145 @@
+@media (max-width: 1920px) {
+  .ExtraPropose {
+    .ExtraPropose_body {
+      width: calc(1080px - 80px);
+      padding: 20px 40px;
+      .ExtraPropose_item {
+        svg {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1650px) {
+  .ExtraPropose {
+    .ExtraPropose_body {
+      width: calc(1000px - 60px);
+      padding: 20px 30px;
+      .ExtraPropose_item {
+        gap: 20px;
+        .ExtraPropose_item_text {
+          h2 {
+            margin: 8px 0px;
+            font-size: 20px;
+          }
+          p {
+            margin: 8px 0px;
+            font-size: 15px;
+          }
+        }
+        svg {
+          width: 65px;
+          height: 65px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .ExtraPropose {
+    .ExtraPropose_body {
+      width: calc(700px - 60px);
+      padding: 20px 30px;
+      .ExtraPropose_item {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .ExtraPropose_item_text {
+          h2 {
+            margin: 8px 0px;
+            font-size: 20px;
+          }
+          p {
+            margin: 8px 0px;
+            font-size: 15px;
+            width: 200px;
+          }
+        }
+        svg {
+          width: 65px;
+          height: 65px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .ExtraPropose {
+    .ExtraPropose_body {
+      width: calc(500px - 60px);
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      gap: 20px;
+      .ExtraPropose_item {
+        gap: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        text-align: start;
+        .ExtraPropose_item_text {
+          h2 {
+            margin: 8px 0px;
+            font-size: 20px;
+          }
+          p {
+            margin: 8px 0px;
+            font-size: 15px;
+            width: 250px;
+          }
+        }
+        svg {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .ExtraPropose {
+    .ExtraPropose_body {
+      width: calc(350px - 20px);
+      padding: 20px 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      gap: 20px;
+      .ExtraPropose_item {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .ExtraPropose_item_text {
+          h2 {
+            margin: 8px 0px;
+            font-size: 20px;
+          }
+          p {
+            margin: 8px 0px;
+            font-size: 15px;
+            width: 250px;
+          }
+        }
+        svg {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+}

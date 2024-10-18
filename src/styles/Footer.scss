@@ -1,0 +1,103 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1500;
+  position: relative;
+  padding-top: 200px;
+  &__body {
+    width: 100%;
+    min-height: 200px;
+    background-color: #2D2A2A;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__content {
+    width: 1200px;
+    .Footer__title {
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+    .Footer__section {
+      display: flex;
+      justify-content: space-between;
+      .Footer__inputs {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        input {
+          background-color: #1c1b1b;
+          height: 40px;
+          border: 2px solid #FFE330;
+          font-family: "Roboto Condensed", sans-serif;
+          border-radius: 10px;
+          font-size: 18px;
+          outline: none;
+          width: 250px;
+          color: white;
+          padding: 0px 10px;
+        }
+        button {
+          background-color: #FFE330;
+          height: 40px;
+          border: none;
+          outline: none;
+          border-radius: 10px;
+          font-family: "Roboto Condensed", sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          padding: 0px 10px;
+          cursor: pointer;
+          transition: 0.35s all;
+
+          &:hover {
+            scale: 1.05;
+          }
+          &:active {
+            transform: translateY(6px);
+          }
+        }
+      }
+      .Footer__contacts {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        button {
+          height: 40px;
+          width: 40px;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          background-color: #FFE330;
+          cursor: pointer;
+          transition: 0.35s all;
+
+          &:hover svg {
+            rotate: -10deg;
+          }
+          &:active {
+            transform: translateY(6px);
+          }
+        }
+      }
+    }
+    .Footer__credits {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        font-weight: 400;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 400;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+.Types {
+  z-index: 1500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  &__small_title {
+    color: #FFE330;
+    margin: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  &__title {
+    margin: 15px 0px;
+    font-size: 48px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+  }
+  &__text {
+    width: 500px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(200, 200, 200);
+    margin-top: 0;
+  }
+  &__body {
+    background-image: url("../../public/types_bg.webp");
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 20px;
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .Types_accordeon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      button {
+        width: 400px;
+      }
+    }
+  }
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.accordion-item {
+  @apply bg-opacity-85;
+  background-color: #2D2A2A;
+  border: 1px solid #2D2A2A;
+  border-radius: 15px;
+  //   height: 80px;
+  position: relative;
+  cursor: pointer;
+  padding: 20px 0px;
+  transition: 0.35s all;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    padding: 2px;
+    background: linear-gradient(45deg, #FFE330, #EADE90, #FFE330);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: animate-border 1s linear infinite;
+    background-size: 200%;
+  }
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+  border: none;
+  border-top: 1px solid #adadad20;
+  visibility: visible;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+  visibility: visible;
+}
+
+.accordion .accordion-item .accordion-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+  transition: all 0.3s ease;
+}
+
+.accordion .accordion-item.open .accordion-item-header .accordion-item-header-icon {
+  transform: rotate(-180deg);
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+  grid-template-rows: 1fr;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description {
+  min-height: 0;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description p {
+  padding: 10px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@keyframes animate-border {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

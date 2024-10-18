@@ -1,0 +1,77 @@
+@media (max-width: 1300px) {
+  .Hits {
+    .Hits_body {
+      width: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  .card {
+    width: 700px;
+    height: 300px;
+  }
+
+  .bg {
+    width: 690px;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .Hits {
+    .Hits_body {
+      width: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  .card {
+    width: 450px;
+    height: 350px;
+  }
+
+  .bg {
+    width: 440px;
+    height: 340px;
+  }
+  .hit_img {
+    width: 160px;
+  }
+}
+@media (max-width: 600px) {
+  .Hits {
+    .Hits_body {
+      width: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  .card {
+    width: 320px;
+    height: 450px;
+  }
+
+  .bg {
+    width: 310px;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hit_img {
+    padding-bottom: 10px;
+  }
+}

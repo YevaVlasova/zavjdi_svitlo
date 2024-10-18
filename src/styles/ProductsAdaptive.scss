@@ -1,0 +1,136 @@
+@media (max-width: 1920px) {
+  .Products {
+    &__container {
+      width: 1080px;
+    }
+  }
+  .prod_accordion {
+    width: 1080px;
+  }
+  .products_item,
+  .products_item_hit {
+    width: 300px;
+
+    img {
+      height: 250px;
+    }
+    .products_item_params {
+      .products_item_param {
+        text-align: center;
+        font-size: 15px;
+        min-width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1650px) {
+  .Products {
+    &__container {
+      width: 1000px;
+    }
+  }
+  .prod_accordion {
+    width: 1000px;
+  }
+  .products_item,
+  .products_item_hit {
+    width: 280px;
+
+    img {
+      height: 250px;
+    }
+    .products_item_params {
+      .products_item_param {
+        text-align: center;
+        font-size: 15px;
+        min-width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .Products {
+    &__container {
+      width: 700px;
+    }
+  }
+  .prod_accordion {
+    width: 700px;
+  }
+  .products_item,
+  .products_item_hit {
+    width: 280px;
+
+    img {
+      height: 250px;
+    }
+    .products_item_params {
+      .products_item_param {
+        text-align: center;
+        font-size: 15px;
+        min-width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Products {
+    &__container {
+      width: 500px;
+    }
+  }
+  .prod_accordion {
+    width: 500px;
+  }
+  .products_item,
+  .products_item_hit {
+    width: 350px;
+
+    img {
+      height: 260px;
+    }
+    .products_item_params {
+      .products_item_param {
+        text-align: center;
+        font-size: 15px;
+        min-width: 50px;
+      }
+    }
+  }
+  .prod_accordion .prod_accordion-item .accordion-item-description-wrapper .accordion-item-description {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .Products {
+    &__container {
+      width: 350px;
+    }
+  }
+  .prod_accordion {
+    width: 350px;
+  }
+  .products_item,
+  .products_item_hit {
+    width: 280px;
+
+    img {
+      height: 200px;
+    }
+    .products_item_params {
+      .products_item_param {
+        text-align: center;
+        font-size: 15px;
+        min-width: 50px;
+      }
+    }
+  }
+
+  .prod_accordion .prod_accordion-item .accordion-item-description-wrapper .accordion-item-description {
+    justify-content: center;
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,35 @@
+.ExtraPropose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1500;
+  margin-top: 60px;
+  .ExtraPropose_body {
+    background-color: #2D2A2A;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 20px;
+    width: calc(1400px - 160px);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .ExtraPropose_item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .ExtraPropose_item_text {
+        h2 {
+          margin: 8px 0px;
+        }
+        p {
+          margin: 8px 0px;
+        }
+      }
+      svg {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}

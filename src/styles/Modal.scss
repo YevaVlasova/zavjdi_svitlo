@@ -1,0 +1,148 @@
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ModalOverlay {
+  width: 100vw;
+  height: 200vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  z-index: 5000;
+}
+.ModalBody {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  margin: 10px;
+  z-index: 5000;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 16px;
+}
+.form {
+  background-color: #2D2A2A;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color: #1c1b1b;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  line-height: 14px;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.cut {
+  background-color: #2D2A2A;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.iLabel {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.cut {
+  transform: translateY(8px);
+}
+
+.iLabel {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.iLabel {
+  color: #808097;
+}
+
+.iLabel {
+  color: #FFE330;
+}
+
+.submit {
+  background-color: #FFE330;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+  transition: 0.35s all;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.submit:hover {
+  scale: 1.05;
+}
+.submit:active {
+  background-color: #b9d44c;
+}
