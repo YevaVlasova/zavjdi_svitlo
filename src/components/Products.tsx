@@ -164,18 +164,6 @@ const initialProds = [
       },
       {
         id: 3,
-        img: "pr2.webp",
-        title: "Акумуляторна батарея BOS-GM5.1 Deye",
-        text1: "5.12 кВт-год",
-        text2: "100Ah",
-        text3: "51.2V",
-        price: "1180$",
-        label: "false",
-        isOpen: false,
-        documentation: ["Інструкції-BOS-GM51-Deye.pdf"],
-      },
-      {
-        id: 4,
         img: "pr4.webp",
         title: "Акумуляторна батарея LPBA48200",
         text1: "10 кВт-год",
@@ -187,8 +175,20 @@ const initialProds = [
         documentation: ["Інструкції-LPBA48200.pdf", "Характеристики-LPBA48200.pdf"],
       },
       {
-        id: 5,
+        id: 4,
         img: "pr28.png",
+        title: "Акумуляторна батарея LUX-E-48100LG03",
+        text1: "5 кВт-год",
+        text2: "100Ah",
+        text3: "51.2V",
+        price: "1180$",
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-LUX-E-48100LG03.pdf"],
+      },
+      {
+        id: 5,
+        img: "pr29.png",
         title: "Акумуляторна батарея LPBF24200-M",
         text1: "5 кВт-год",
         text2: "200Ah",
@@ -197,6 +197,66 @@ const initialProds = [
         label: "false",
         isOpen: false,
         documentation: ["Інструкції-LPBF24200-M.pdf", "Характеристики-LPBF24200-M.pdf"],
+      },
+      {
+        id: 6,
+        img: "pr31.png",
+        title: "Акумуляторна батарея LPBA48170",
+        text1: "8.7 кВт-год",
+        text2: "170Ah",
+        text3: "48V",
+        price: "1730$",
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 7,
+        img: "pr32.png", ///
+        title: "Акумуляторна батарея LPBF24100-M",
+        text1: "2.5 кВт-год",
+        text2: "100Ah",
+        text3: "25.6V",
+        price: "560$", ///
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-LPBF24100-M.pdf", "Характеристики-LPBF24100-M.pdf"],
+      },
+      {
+        id: 8,
+        img: "pr33.png", ///
+        title: "Акумуляторна батарея LUX-E-48100LG01",
+        text1: "5 кВт-год",
+        text2: "100Ah",
+        text3: "51.2V",
+        price: "1300$", ///
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 9,
+        img: "pr34.png", ///
+        title: "Акумуляторна батарея RW-F10.6 Deye",
+        text1: "10.64 кВт-год",
+        text2: "208Ah",
+        text3: "51.2V",
+        price: "1$", ///
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-RW-F10-6-Deye.pdf", "Характеристики-RW-F10-6-Deye.pdf"],
+      },
+      {
+        id: 10,
+        img: "pr35.png", ///
+        title: "Акумуляторна батарея RW-M6.1 Deye",
+        text1: "6.14 кВт-год",
+        text2: "120Ah",
+        text3: "51.2V",
+        price: "1760$", ///
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-RW-M6-1-Deye.pdf", "Характеристики-RW-M6-1-Deye.pdf"],
       },
     ],
   },
@@ -295,7 +355,7 @@ const initialProds = [
         documentation: ["Інструкції-LUX-X-48100LMG01.pdf", "Характеристики-LUX-X-48100LMG01.pdf"],
       },
       {
-        id: 4,
+        id: 3,
         img: "pr26.webp",
         title: "Акумуляторна батарея SE-G5.1 Pro-B Deye",
         text1: "5,12 кВт-год",
@@ -307,7 +367,7 @@ const initialProds = [
         documentation: ["Інструкції-SE-G5.1-Pro-B-Deye.pdf"],
       },
       {
-        id: 3,
+        id: 4,
         img: "pr22.webp",
         title: "Високовольтна акумуляторна батарея BOS-GM5.1 Deye",
         text1: "5,12 кВт-год",
@@ -318,6 +378,18 @@ const initialProds = [
         isOpen: false,
         documentation: ["Інструкції-BOS-GM51-Deye.pdf"],
       },
+      {
+        id: 5,
+        img: "pr30.png", //////
+        title: "Акумуляторна батарея BOS-A Deye",
+        text1: "7,68 кВт-год",
+        text2: "200Ah",
+        text3: "38.4V",
+        price: "1$", ///
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
     ],
   },
   {
@@ -325,8 +397,8 @@ const initialProds = [
     title: "Інвертори",
     prod_list: [
       {
-        id: 4,
-        img: "pr23.webp",
+        id: 1,
+        img: "pr36.png",
         title: "Гібридний інвертор IVEM5048-LV",
         text1: "5 кВт",
         text2: "1 фазa",
@@ -337,7 +409,7 @@ const initialProds = [
         documentation: ["Інструкції-IVEM5048-LV.pdf"],
       },
       {
-        id: 5,
+        id: 2,
         img: "pr23.webp",
         title: "Гібридний інвертор IVEM8048-LV",
         text1: "8 кВт",
@@ -349,7 +421,7 @@ const initialProds = [
         documentation: ["Інструкції-IVEM8048-LV.pdf", "Характеристики-IVEM8048-LV.pdf"],
       },
       {
-        id: 1,
+        id: 3,
         img: "pr12.webp",
         title: "Гібридний інвертор T-REX-5KLP1G01",
         text1: "5 кВт",
@@ -361,7 +433,7 @@ const initialProds = [
         documentation: ["Інструкції-T-REX-5KLP1G01.pdf", "Характеристики-T-REX-5KLP1G01.pdf"],
       },
       {
-        id: 2,
+        id: 4,
         img: "pr13.webp",
         title: "Гібридний інвертор T-REX-10KLP3G01",
         text1: "10 кВт",
@@ -373,7 +445,7 @@ const initialProds = [
         documentation: ["Інструкції-T-REX-10KLP3G01.pdf", "Характеристики-T-REX-10KLP3G01.pdf"],
       },
       {
-        id: 3,
+        id: 5,
         img: "pr14.webp",
         title: "Гібридний інвертор Apollo-5KLP1G01-MX",
         text1: "5 кВт",
@@ -408,6 +480,234 @@ const initialProds = [
         isOpen: false,
         documentation: ["Інструкції-SUN-50K-SG01HP3-EU-BM4.pdf"],
       },
+      {
+        id: 8,
+        img: "pr37.png", ////
+        title: "Гібридний інвертор SUN-05K-SG03LP1-EU Deye WiFi",
+        text1: "5 кВт",
+        text2: "1 фаза",
+        text3: "2 MMPT",
+        price: "1350$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-05K-SG03LP1-EU-Deye-WiFi.pdf"],
+      },
+      {
+        id: 9,
+        img: "pr38.png", ////
+        title: "Гібридний інвертор SUN-06K-SG05LP1-EU Deye WiFi",
+        text1: "6 кВт",
+        text2: "1 фаза",
+        text3: "2 MMPT",
+        price: "1390$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-06K-SG05LP1-EU-Deye-WiFi.pdf", "Характеристики-SUN-06K-SG05LP1-EU-Deye-WiFi.pdf"],
+      },
+      {
+        id: 10,
+        img: "pr39.png", ////
+        title: "Гібридний інвертор SUN-08K-SG01LP1-EU Deye WiFi",
+        text1: "8 кВт",
+        text2: "1 фаза",
+        text3: "2 MMPT",
+        price: "2130$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-08K-SG01LP1-EU-Deye-WiFi.pdf", "Характеристики-SUN-08K-SG01LP1-EU-Deye-WiFi.pdf"],
+      },
+      {
+        id: 11,
+        img: "pr40.png", ////
+        title: "Гібридний інвертор SUN-10K-SG02LP1-EU-AM3 Deye WiFi",
+        text1: "10 кВт",
+        text2: "1 фаза",
+        text3: "2 MMPT",
+        price: "2500$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-10K-SG02LP1-EU-AM3-Deye-WiFi.pdf", "Характеристики-SUN-10K-SG02LP1-EU-AM3-Deye-WiFi.pdf"],
+      },
+      {
+        id: 12,
+        img: "pr41.png", ////
+        title: "Гібридний інвертор SUN-12K-SG02LP1-EU-AM3 Deye WiFi",
+        text1: "12 кВт",
+        text2: "1 фаза",
+        text3: "2 MMPT",
+        price: "2810$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-10K-SG02LP1-EU-AM3-Deye-WiFi.pdf", "Характеристики-SUN-10K-SG02LP1-EU-AM3-Deye-WiFi.pdf"],
+      },
+      {
+        id: 13,
+        img: "pr42.png", ////
+        title: "Гібридний інвертор SUN-16K-SG05LP3-EU-SM2 Deye WiFi",
+        text1: "16 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "3700$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Характеристики-SUN-16K-SG05LP3-EU-SM2-Deye-WiFi.pdf"],
+      },
+      {
+        id: 14,
+        img: "pr43.png", ////
+        title: "Гібридний інвертор SUN-20K-SG01HP3-EU-AM2 Deye WiFi",
+        text1: "20 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "2810$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-20K-SG01HP3-EU-AM2-Deye-WiFi.pdf", "Характеристики-SUN-20K-SG01HP3-EU-AM2-Deye-WiFi.pdf"],
+      },
+      {
+        id: 15,
+        img: "pr44.png", ////
+        title: "Гібридний інвертор SUN-20K-SG05LP3-EU-SM2 Deye WiFi",
+        text1: "20 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "4450$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Характеристики-SUN-20K-SG05LP3-EU-SM2-Deye-WiFi.pdf"],
+      },
+      {
+        id: 16,
+        img: "pr45.png", ////
+        title: "Гібридний інвертор SUN-30K-SG01HP3-EU-BM3 Deye WiFi",
+        text1: "30 кВт",
+        text2: "3 фази",
+        text3: "3 MMPT",
+        price: "5470$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-30K-SG01HP3-EU-BM3-Deye-WiFi.pdf", "Характеристики-SUN-30K-SG01HP3-EU-BM3-Deye-WiFi.pdf"],
+      },
+      {
+        id: 17,
+        img: "pr46.png", ////
+        title: "Гібридний інвертор SUN-50K-SG01HP3-EU-BM4 Deye WiFi",
+        text1: "50 кВт",
+        text2: "3 фази",
+        text3: "4 MMPT",
+        price: "7230$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-50K-SG01HP3-EU-BM4-Deye-WiFi.pdf", "Характеристики-SUN-50K-SG01HP3-EU-BM4-Deye-WiFi.pdf"],
+      },
+      {
+        id: 18,
+        img: "pr47.png", ////
+        title: "Мережевий інвертор SUN-100K-G03 Deye WiFi",
+        text1: "100 кВт",
+        text2: "3 фази",
+        text3: "6 MMPT",
+        price: "3920$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-100K-G03-Deye-WiFi.pdf", "Характеристики-SUN-100K-G03-Deye-WiFi.pdf"],
+      },
+      {
+        id: 19,
+        img: "pr48.png", ////
+        title: "Мережевий інвертор SUN-10K-G Deye WiFi",
+        text1: "10 кВт",
+        text2: "1 фаза",
+        text3: "2 MMPT",
+        price: "680$", ////
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 20,
+        img: "pr49.png", ////
+        title: "Мережевий інвертор SUN-10K-G06P3-EU-AM2 Deye WiFi",
+        text1: "10 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "680$", ////
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 21,
+        img: "pr50.png", ////
+        title: "Мережевий інвертор SUN-15K-G05 Deye WiFi",
+        text1: "15 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "980$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Характеристики-SUN-15K-G05-Deye-WiFi.pdf"],
+      },
+      {
+        id: 22,
+        img: "pr51.png", ////
+        title: "Мережевий інвертор SUN-20-G04 Deye WiFi",
+        text1: "20 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "1080$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-20-G04-Deye-WiFi.pdf", "Характеристики-SUN-20-G04-Deye-WiFi.pdf"],
+      },
+      {
+        id: 23,
+        img: "pr52.png", ////
+        title: "Мережевий інвертор SUN-25K-G05 Deye WiFi",
+        text1: "20 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "1170$", ////
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 24,
+        img: "pr53.png", ////
+        title: "Мережевий інвертор SUN-30-G04 Deye WiFi",
+        text1: "30 кВт",
+        text2: "3 фази",
+        text3: "2 MMPT",
+        price: "1450$", ////
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-SUN-30-G04-Deye-WiFi.pdf", "Характеристики-SUN-30-G04-Deye-WiFi.pdf"],
+      },
+      {
+        id: 25,
+        img: "pr54.png", ////
+        title: "Мережевий інвертор SUN-50K-G03 Deye WiFi",
+        text1: "50 кВт",
+        text2: "3 фази",
+        text3: "4 MMPT",
+        price: "2420$", ////
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 26,
+        img: "pr55.png", ////
+        title: "Мережевий інвертор SUN-80K-G Deye WiFi",
+        text1: "80 кВт",
+        text2: "3 фази",
+        text3: "4 MMPT",
+        price: "3240$", ////
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
     ],
   },
   {
@@ -415,7 +715,7 @@ const initialProds = [
     title: "Сонячні панелі",
     prod_list: [
       {
-        id: 17,
+        id: 1,
         img: "pr17.webp",
         title: "Двосторонній Фотоелектричний модуль DHN-60X16/DG",
         text1: "480W",
@@ -427,7 +727,7 @@ const initialProds = [
         documentation: ["Характеристики-DHN-60X16-DG.pdf"],
       },
       {
-        id: 15,
+        id: 2,
         img: "pr15.webp",
         title: "Двосторонній Фотоелектричний модуль DHN-78X16/DG",
         text1: "630W",
@@ -439,7 +739,7 @@ const initialProds = [
         documentation: ["Характеристики-DHN-78X16-DG.pdf"],
       },
       {
-        id: 16,
+        id: 3,
         img: "pr15.webp",
         title: "Двосторонній Фотоелектричний модуль DHN-72X16/DG",
         text1: "585W",
@@ -451,7 +751,7 @@ const initialProds = [
         documentation: ["Характеристики-DHN-72X16-DG.pdf"],
       },
       {
-        id: 16,
+        id: 4,
         img: "pr15.webp",
         title: "Двосторонній Фотоелектричний модуль DHM-72X10",
         text1: "550W",
@@ -463,7 +763,7 @@ const initialProds = [
         documentation: ["Характеристики-DHM-72X10.pdf"],
       },
       {
-        id: 18,
+        id: 5,
         img: "pr18.webp",
         title: "Односторонній Фотоелектричний модуль DHN-54X16/FS",
         text1: "440W",
@@ -475,7 +775,7 @@ const initialProds = [
         documentation: ["Характеристики-DHN-54X16-FS.pdf"],
       },
       {
-        id: 18,
+        id: 6,
         img: "pr27.webp",
         title: "Двосторонній Фотоелектричний модуль DHN-54X16/FS",
         text1: "435W",
@@ -486,6 +786,30 @@ const initialProds = [
         isOpen: false,
         documentation: ["Характеристики-DHN-54X16-FS-435.pdf"],
       },
+      {
+        id: 7,
+        img: "pr64.png",
+        title: "Двосторонній Фотоелектричний модуль DHN-54X16DG",
+        text1: "440W",
+        text2: "23.5 кг",
+        text3: "30 Ампер",
+        price: "93$",
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+      {
+        id: 8,
+        img: "pr65.png",
+        title: "Фотоелектричний модуль портативний SP-100 CTECHi",
+        text1: "100W",
+        text2: "3 Ампер",
+        text3: "1280х550х4 мм",
+        price: "158$",
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
     ],
   },
   {
@@ -493,7 +817,7 @@ const initialProds = [
     title: "Комутація",
     prod_list: [
       {
-        id: 19,
+        id: 1,
         img: "pr20.webp",
         title: "Кабель для сон. батарей KBE Solar DB+",
         text1: "500 м",
@@ -505,7 +829,7 @@ const initialProds = [
         documentation: ["Характеристики-KBE-Solar-DB.pdf"],
       },
       {
-        id: 20,
+        id: 2,
         img: "pr21.webp",
         title: "Кабель для сон. батарей KBE Solar DB+",
         text1: "500 м",
@@ -515,6 +839,120 @@ const initialProds = [
         label: "false",
         isOpen: false,
         documentation: ["Характеристики-KBE-Solar-DB.pdf"],
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Комплектуючі",
+    prod_list: [
+      {
+        id: 1,
+        img: "pr56.png", ////
+        title: "Блок керування кластером високовольтної батареї HVB750V 100A-EU Deye",
+        text1: "100 A",
+        text2: "IP20",
+        text3: "120-750В",
+        price: "1120$", ///
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-HVB750V-100A-EU-Deye.pdf"],
+      },
+      {
+        id: 2,
+        img: "pr57.png",
+        title: "Кронштейн укладання Battery Brackets 3U-model for SE-G5.1 Pro",
+        text1: "4 шт",
+        text2: "187 мм",
+        text3: "макс. укладання 4 поверхи",
+        price: "26$",
+        label: "false",
+        isOpen: false,
+        // documentation: [],
+      },
+      {
+        id: 3,
+        img: "pr58.png",
+        title: "Роликова основа GD-60F roller base для акумуляторних батарей HS51200-10 Delong",
+        text1: "міцна",
+        text2: "легко переміщати",
+        text3: "портативна",
+        price: "117$",
+        label: "false",
+        isOpen: false,
+        // documentation: [],
+      },
+      {
+        id: 4,
+        img: "pr59.png",
+        title: "Стандартна стійка 19 дюймів, (12 шт.) 3U-HRACK Deye",
+        text1: "12 шт",
+        text2: "19 дюймів",
+        text3: "589x590x2240 mm",
+        price: "490$",
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-3U-HRACK-Deye.pdf"],
+      },
+      {
+        id: 5,
+        img: "pr60.png",
+        title: "Стандартна стійка 19 дюймів, (8 шт.) 3U-LRACK Deye",
+        text1: "8 шт",
+        text2: "19 дюймів",
+        text3: "589x590x1640 mm",
+        price: "400$",
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-3U-HRACK-Deye.pdf"],
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Портативні зарядні станції",
+    prod_list: [
+      {
+        id: 1,
+        img: "pr61.png",
+        title: "Портативна зарядна станція GT300 Portable Power Station CTECHi",
+        text1: "300 Вт",
+        text2: "307 Вт-год",
+        text3: "4,3 кг",
+        price: "220$",
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Системи зберігання енергії",
+    prod_list: [
+      {
+        id: 1,
+        img: "pr62.png",
+        title: "Al-W5.1-B Deye",
+        text1: "5,12 кВт-год",
+        text2: "100Ah",
+        text3: "51,2V",
+        price: "3510$",
+        label: "false",
+        isOpen: false,
+        documentation: ["Інструкції-Al-W5-1-B-Deye.pdf", "Характеристики-Al-W5-1-B-Deye.pdf"],
+      },
+      {
+        id: 2,
+        img: "pr63.png",
+        title: "Система зберігання енергії RW-F5.3-2H3 Deye",
+        text1: "5,32 кВт-год",
+        text2: "100Ah",
+        text3: "51,2V",
+        price: "1$",
+        label: "false",
+        isOpen: false,
+        // documentation: [""],
       },
     ],
   },
