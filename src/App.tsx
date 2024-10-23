@@ -10,6 +10,7 @@ import Modal from "./components/Modal";
 import { message } from "antd";
 import Hits from "./components/Hits";
 import ExtraPropose from "./components/ExtraPropose";
+import Montage from "./components/Montage";
 
 const messages = [
   {
@@ -95,6 +96,7 @@ function App() {
             <ExtraPropose></ExtraPropose>
             <Products openModal={openModal}></Products>
             <Hits openModal={openModal}></Hits>
+            <Montage />
             <SmallInfo></SmallInfo>
             <Types></Types>
             <Footer></Footer>
