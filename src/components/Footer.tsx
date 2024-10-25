@@ -127,13 +127,13 @@ const Footer = () => {
                 <WhatsappIcon></WhatsappIcon>
               </button>
               <button>
-                <a href="https://t.me/felec_energy" rel="noopener noreferrer">
+                <a href="https://t.me/task_force_2215" rel="noopener noreferrer">
                   {" "}
                   <TelegramIcon></TelegramIcon>
                 </a>
               </button>
               <button>
-                <a href="tel:+380673692211" rel="noopener noreferrer">
+                <a href="tel:+380635629959" rel="noopener noreferrer">
                   <PhoneIcon></PhoneIcon>
                 </a>
               </button>
